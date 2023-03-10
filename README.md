@@ -72,7 +72,7 @@ kubectl get pods -n genai-ns
 
 6. Test the Endpoint
 
-I Provide 2 options for testing the model. 
+I have provided 2 options for testing the deployed model. 
 
 You can run the raw python code (as shown below, and it will save a mesh.ply file on your local machine based on the text you enter. Or you can use the [Notebook call test_endpoint.ipynb](./services/app/test_endpoint.ipynb) that I provided, which will render a 3d image mesh that you can view and manipulate via Plotly. 
 
